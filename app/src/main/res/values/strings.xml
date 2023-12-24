@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Alert_to_Child_with_touch">Alert to Child with touch</string>
+    <string name="Auto_service_start">Auto service start</string>
+    <string name="Child_Mode">Child Mode</string>
+    <string name="Default_Lock_Mode">Touch Lock Mode</string>
+    <string name="Disable_only_touch">Disable only touch</string>
+    <string name="Display_Unlock_Description">Display_Unlock Description</string>
+    <string name="Draw_Mode">Draw Mode</string>
+    <string name="Evaluation">Evaluation</string>
+    <string name="Half_Lock_Mode">Half Lock Mode</string>
+    <string name="Half_Screen_Lock">Half Screen Lock</string>
+    <string name="Help_to_Draw">Help to draw</string>
+    <string name="Hide_Lock_Button">Hide Lock Button</string>
+    <string name="Hide_lock_button_but_you_can_control_using_noti_bar">Hide lock button &amp; Control Using Notification</string>
+    <string name="Music_Mode">Music Mode</string>
+    <string name="No_touch_service_start_automatically_with_booting">Service start automatically with booting</string>
+    <string name="NotiFinish">Service Finish</string>
+    <string name="NotiLock">Touch Lock Service</string>
+    <string name="NotiTitle">TOUCH Service is Running..</string>
+    <string name="NotiYouTube">YOUTUBE RUN</string>
+    <string name="NotiunLock">unLock Service</string>
+    <string name="Operation_Mode_Options">Operation Mode Options</string>
+    <string name="Partial_Touch_Enable">Partial Touch Enable</string>
+    <string name="Partial_Touch_Lock">Partial Screen Lock</string>
+    <string name="Proximity_Sensor">Proximity Sensor</string>
+    <string name="Screen_Lock_Mode">Screen Lock Mode</string>
+    <string name="Service_End_Alert_Dialog">Finish Touch Lock Service or Start?</string>
+    <string name="Service_End_Alert_Dialog_Finish">Finish Service</string>
+    <string name="Service_End_Alert_Dialog_Start">Start Service</string>
+    <string name="Setting_Button_Alpha">Setting Button Alpha</string>
+    <string name="Setting_Button_Icon">Select Lock Icon</string>
+    <string name="Setting_Button_Size">Setting Button Size</string>
+    <string name="Skip_Ad_and_Scroll_by_Partial_Touch_Space">You can skip AD or scroll by Partial Space</string>
+    <string name="Tilt_Sensor">Tilt Sensor</string>
+    <string name="Touch_and_Brightness_control">Touch and Brightness control</string>
+    <string name="Touch_lock_by_landscape_screen_automatically">Touch lock by landscape screen automatically</string>
+    <string name="Touch_lock_by_proximity_near_automatically">Touch lock by proximity near automatically</string>
+    <string name="Ulock_Guide_Toast">Unlock using unlock button</string>
+    <string name="Unlock_Description">Show Unlock Text msg.</string>
+    <string name="Unlock_using_2_continuos_click_description">Unlock using Double Click</string>
+    <string name="Unlock_using_5_continuos_click">Unlock using 5 continuos click</string>
+    <string name="Unlock_using_5_continuos_click_description">Unlock using 5 continuos click_description</string>
+    <string name="Unlock_using_VolumeKey">Unlock using Volume Key</string>
+    <string name="Unlock_using_double_click">Unlock using double click</string>
+    <string name="You_can_Unlock_using_Volume_LongKey">You can Unlock using Volume Key</string>
+    <string name="You_can_lock_half_screen">You can lock the half screen.</string>
+    <string name="You_can_setting_button_alpha">You can change button alpha</string>
+    <string name="You_can_setting_button_icon">You can setting lock icon</string>
+    <string name="You_can_setting_button_size">You can change button size</string>
+
+
+
+
+    <string name="alpha_percentate_string">Brightness : 100%</string>
+    <string name="app_info">App Info.</string>
+    <string name="app_name">TOUCH! Lock!</string>
+    <string name="back_button_finish">\10 Starts and ends the touch lock.</string>
+
+    <string name="close">Close</string>
+    <string name="dialog_back_button">\10 Are you sure you want to quit?</string>
+    <string name="dialog_update_info">\10Update Info.</string>
+    <string name="drag_guide">You can change screen brightness. \10 Drag up or down.</string>
+    <string name="etc">Etc</string>
+    <string name="hello">touch Service</string>
+    <string name="how_to">How to use</string>
+    <string name="more">More Information..</string>
+
+    <string name="no">No</string>
+    <string name="no_again">No more again.</string>
+    <string name="optionmenu_app_info">\10App Info.</string>
+    <string name="optionmenu_how_to">\10How to..?</string>
+    <string name="permission_title">Touch Lock Mode requires the following permission.</string>
+    <string name="place_autocomplete_clear_button">Clear search</string>
+    <string name="place_autocomplete_search_hint">Search</string>
+    <string name="remove">Remove</string>
+    <string name="req_permission_1">1) Power saving function exception app permission</string>
+    <string name="req_permission_2">2) Permission to draw on top</string>
+    <string name="req_permission_3">3) Permission to write system settings</string>
+    <string name="req_permission_button">Setting Request Permission</string>
+
+    <string name="search_menu_title">Search</string>
+    <string name="set_unlock_notification">\10Do you want to use the callout popup when you touch on the lock screen?\10(Use the lock button to unlock!)\10</string>
+    <string name="share">Share</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subNotiTitle">You can change the service with the button below.</string>
+    <string name="sub_req_permission_1">The Touch Lock Mode is an app that operates in the form of a service and requires permission to handle the power saving function exception so that the service is not automatically terminated.</string>
+    <string name="sub_req_permission_2">The Touch Lock Mode requires permission to draw on top of other apps for the floating button and screen lock function.</string>
+    <string name="sub_req_permission_3">The Touch Lock Mode requires permission to write system settings to use the floating button, screen lock function, and service.</string>
+    <string name="tagmanager_preview_dialog_button">Continue</string>
+    <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
+    <string name="tagmanager_preview_dialog_title">Preview</string>
+    <string name="unlock_notification">Unlock Description</string>
+    <string name="use">Use</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="yes">Yes</string>
+    <string name="youtube_link">Youtube Link..</string>
+    <string name="action_settings">setting</string>
+    <string name="evaluation">evaluation</string>
+</resources>

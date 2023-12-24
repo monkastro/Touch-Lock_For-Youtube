@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.touch.lock.screen.touchlock">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/lock_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TouchLock_Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".TouchLock_permission"/>
+        <service android:name=".UnLockService">
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.unLockService.switch"/>
+
+                <action android:name="android.intent.action.unLockService.finish"/>
+
+                <action android:name="android.intent.action.unLockService.youtube"/>
+
+                <action android:name="android.intent.action.unLockService.proximity_on"/>
+
+                <action android:name="android.intent.action.unLockService.proximity_off"/>
+
+                <action android:name="android.intent.action.unLockService.unlock_button_hide_on"/>
+
+                <action android:name="android.intent.action.unLockService.unlock_button_hide_off"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </service>
+        <service android:name=".LockService">
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.LockService.switch"/>
+
+                <action android:name="android.intent.action.LockService.finish"/>
+
+                <action android:name="android.intent.action.LockService.youtube"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </service>
+
+
+        <service android:name=".NotouchBootingStartService">
+
+
+            <intent-filter>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </service>
+
+
+        <service android:name=".NotouchVolumeKeyStopService">
+
+
+            <intent-filter>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </service>
+
+
+
+        <receiver android:name=".MybroadcastReceiverService" android:enabled="true">
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+
+            </intent-filter>
+
+        </receiver>
+    </application>
+
+</manifest>
